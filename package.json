@@ -1,0 +1,30 @@
+{
+  "name": "mock-blockchain",
+  "version": "1.0.0",
+  "description": "Example how blockchain works",
+  "main": "index.js",
+  "author": "Mohamed Dounnani",
+  "license": "MIT",
+  "scripts": {
+    "build": "gulp build",
+    "start": "nodemon release/js/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^13.13.1",
+    "@types/reflect-metadata": "^0.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean": "^0.4.0",
+    "gulp-copy": "^4.0.1",
+    "gulp-sourcemaps": "^2.6.5",
+    "gulp-tslint": "^8.1.4",
+    "gulp-typescript": "^6.0.0-alpha.1",
+    "merge2": "^1.3.0",
+    "nodemon": "^2.0.3",
+    "tslint": "^6.1.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "crypto-js": "^4.0.0",
+    "moment": "^2.24.0"
+  }
+}

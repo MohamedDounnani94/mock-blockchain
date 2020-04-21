@@ -1,0 +1,8 @@
+node_modules/
+release/
+.tmp/
+docs-files/
+files/
+typedoc/
+
+*.log
